@@ -17,6 +17,8 @@ source venv/bin/activate  # On Windows use 'venv\Scripts\activate'
 
 # Install dependencies
 pip install -r requirements.txt
+or
+pip install streamlit pandas scikit-learn joblib
 ```
 
 ## Usage
