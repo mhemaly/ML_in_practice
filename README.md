@@ -1,5 +1,9 @@
 # ML in Practice
 
+![image](https://github.com/user-attachments/assets/6b478ed0-6257-43c2-9c3a-e0f760431fd7)
+
+
+
 ## Project Overview
 This repository provides a practical implementation of a Machine Learning pipeline using the Titanic dataset. It includes data preprocessing, model training, evaluation, and a simple deployment using Streamlit for real-time predictions.
 
