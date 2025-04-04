@@ -36,13 +36,29 @@ This will launch a web interface where users can input passenger details and rec
 
 ## Project Structure
 ```
-ML-in-Practice/
-│── utils.py          # Contains functions for model loading and prediction
-│── main.py           # Streamlit application for user interaction
-│── titanic_model.pkl # Trained ML model
-│── scaler.pkl        # Scaler for feature normalization
-│── requirements.txt  # List of required packages
-│── README.md         # Project documentation
+
+ML_in_practice/
+├── Notebooks/                                            # Jupyter notebooks for data analysis and model development
+│   ├── Titanic ML Model Pipline v1_user inpus.ipynb      # Notebook for initial pipeline
+│   ├── Titanic ML Model Pipline v2_Streamlit.ipynb       # Notebook for initial pipeline with advanced deployment
+│
+├── __pycache__/                                          # Compiled Python files
+│   ├── utils.cpython-38.pyc                              # Compiled utils.py
+│   └── model.cpython-38.pyc                              # Compiled model.py
+│
+├── model/                                                # Directory containing trained model files
+│   ├── titanic_model.pkl                                 # Trained machine learning model
+│   └── scaler.pkl                                        # Scaler for feature normalization
+│
+├── src/                                                  # Source code for data processing and model training
+│   ├── __init__.py                                       # Initialization file for src package
+│   ├── utils.py                                          # Code for data cleaning and preprocessing
+│
+├── README.md                                             # Project documentation
+├── main.py                                               # Streamlit application for user interaction
+└── requirements.txt                                      # List of required packages
+
+
 ```
 
 ## Contributing
